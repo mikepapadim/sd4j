@@ -60,7 +60,7 @@ There are many compatible models on [Hugging Face's website](https://huggingface
 Stable Diffusion v1.5 checkpoint, which has pre-built ONNX models. This can be downloaded via 
 the following `git` commands (skip the first one if you have already configured `git-lfs`):
 ```bash
-git lfs install
+git-lfs install
 git clone https://huggingface.co/runwayml/stable-diffusion-v1-5 -b onnx
 ```
 The Stable Diffusion v1.5 checkpoint is available under the [OpenRAIL-M license](https://github.com/CompVis/stable-diffusion/blob/main/LICENSE).
